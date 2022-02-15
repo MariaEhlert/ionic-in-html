@@ -22,4 +22,8 @@ form {
 form #loginBtn {
   padding-bottom: 3%;
 }
+
+.errMessage {
+  color: red;
+}
 /*# sourceMappingURL=main.css.map */
