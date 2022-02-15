@@ -1,0 +1,25 @@
+.sectionOne {
+  text-align: center;
+}
+
+#imgBtn {
+  margin: auto;
+  display: block;
+}
+
+form {
+  width: 100%;
+  padding-top: 4%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form #loginBtn {
+  padding-bottom: 3%;
+}
+/*# sourceMappingURL=main.css.map */

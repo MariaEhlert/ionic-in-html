@@ -1,0 +1,17 @@
+.sectionOne{
+    text-align: center;
+}
+#imgBtn{
+    margin: auto;
+    display: block;
+}
+form{
+    width: 100%;
+    padding-top: 4%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    #loginBtn{
+        padding-bottom: 3%;
+    }
+}

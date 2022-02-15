@@ -1,0 +1,81 @@
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="favicon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ionic</title>
+    <!-- ionic  -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <!--  -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <!-- Din Ionic kode indsættes her -->
+    <ion-app>
+        <!-- mobil nav -->
+        <ion-menu side="start" content-id="main-content">
+            <ion-header>
+                <ion-toolbar translucent>
+                    <ion-title>Menu</ion-title>
+                </ion-toolbar>
+            </ion-header>
+            <ion-content>
+                <ion-list>
+                    <ion-item>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                        <a href="index.html"><ion-label>Forside</ion-label></a> 
+                    </ion-item>
+                    <ion-item>
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                        <a href="login.html"><ion-label>Log ind</ion-label></a>
+                    </ion-item>
+                </ion-list>
+            </ion-content>
+        </ion-menu>
+        <!--  -->
+        <div class="ion-page" id="main-content">
+            <ion-header>
+                <ion-toolbar>
+                    <ion-buttons slot="start">
+                        <ion-menu-button></ion-menu-button>
+                    </ion-buttons>
+                    <ion-title>Hent en Hund</ion-title>
+                </ion-toolbar>
+            </ion-header>
+
+            <!-- sektion 1 -->
+            <ion-content class="sectionOne">
+                <ion-card>
+                    <ion-card-header>
+                        <ion-card-title>Log ind</ion-card-title>
+                    </ion-card-header>
+                    <ion-card-content>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae sed velit
+                        ab aliquid asperiores deleniti expedita placeat ipsam aliquam voluptatem cumque, ut
+                        dignissimos! Neque nihil eligendi fuga doloremque alias.
+                    </ion-card-content>
+                </ion-card>
+                <form> 
+                    <ion-item id="username">
+                        <ion-label position="stacked">BrugerNavn</ion-label>
+                        <ion-input type="text" ></ion-input>
+                    </ion-item>
+                    <ion-item id="password">
+                        <ion-label position="stacked">Adgangskode</ion-label>
+                        <ion-input type="password" ></ion-input>
+                    </ion-item>
+                    <ion-button color="success" id="loginBtn">Log ind</ion-button>
+                </form>
+                   
+            </ion-content>
+        </div>
+    </ion-app>
+</body>
+
+</html>
